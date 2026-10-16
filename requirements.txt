@@ -1,0 +1,9 @@
+# Direct dependencies; versions are not locked yet.
+# GPU-specific PyTorch builds may require a separate installation.
+numpy
+opencv-python
+mediapipe
+torch
+pandas
+matplotlib
+scikit-learn

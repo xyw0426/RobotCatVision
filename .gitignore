@@ -1,0 +1,31 @@
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Local datasets (keep setup instructions)
+/data/*
+!/data/README.md
+
+# Generated documents and temporary work
+/tmp/
+/output/
+/training/outputs/cross_platform_test/
+*.log
+
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
